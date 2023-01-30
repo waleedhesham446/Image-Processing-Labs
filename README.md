@@ -11,14 +11,18 @@ Small separated projects to apply the image proccessing concepts on real world c
    * [Objectives](#lab2-objectives)
    * [Requirements](#lab2-requirements)
    * [Outputs](#lab2-outputs)
-* [lab03 (AVG Filters)](#lab3)
+* [Lab3 (AVG Filters)](#lab3)
    * [Objectives](#lab3-objectives)
    * [Requirements](#lab3-requirements)
    * [Outputs](#lab3-outputs)
- * [lab04 (Brightness Transformation)](#lab4)
+ * [Lab4 (Brightness Transformation)](#lab4)
    * [Objectives](#lab4-objectives)
    * [Requirements](#lab4-requirements)
    * [Outputs](#lab4-outputs)
+  * [Lab5 (Edge Detection)](#lab5)
+   * [Objectives](#lab5-objectives)
+   * [Requirements](#lab5-requirements)
+   * [Outputs](#lab5-outputs)
 
 ## <a name="lab1" />Lab1 (Basics)
 ### <a name="lab1-objectives" /> Objectives:
@@ -68,7 +72,7 @@ Small separated projects to apply the image proccessing concepts on real world c
 <img src = "lab02 (Convolution & FT)/output/edged.png"/>
 
 
-## <a name="lab3" />lab03 (AVG Filters)
+## <a name="lab3" />Lab3 (AVG Filters)
 
 ### <a name="lab3-objectives" /> Objectives:
  * Understand how Averaging Filters are used for Noise Reduction.
@@ -85,7 +89,7 @@ Small separated projects to apply the image proccessing concepts on real world c
 <img src = "lab03 (AVG Filters)/output/mean.png"/>
 
 
-## <a name="lab4" />lab04 (Brightness Transformation)
+## <a name="lab4" />Lab4 (Brightness Transformation)
 
 ### <a name="lab4-objectives" /> Objectives:
  * Know the effect of Negative transformation.
@@ -106,4 +110,28 @@ Small separated projects to apply the image proccessing concepts on real world c
 <img src = "lab04 (Brightness Transformation)/output/blue_effect_removal.png"/>
 
 #### Histogram Equalization:
-<img src = "lab04 (Brightness Transformation)/output/hist_equalization.png"/>
+<img src = "lab04 (Brightness Transformation)/output/hist_equalization.png" height="400"/>
+
+
+## <a name="lab5" />Lab5 (Edge Detection)
+
+### <a name="lab5-objectives" /> Objectives:
+ * Apply and notice the differences between edge detection techniques
+ * Understand the effect of different parameters used in edge detection techniques.
+ * Learn and implement “Sobel operator “and “LoG” edge detection techniques.
+
+
+### <a name="lab5-requirements" /> Requirements: 
+* Apply 4 different Edge Detection Techniques: **Sobel, Prewitt, Roberts,** and **Canny** and comment on results.
+* Implement **Sobel** edge detector.
+* Implement **LoG** edge detector.
+
+### <a name="lab5-outputs" /> Outputs:
+#### Built-in Filters:
+<img src = "lab05 (Edge Detection)/output/built-in_filters.png"/>
+
+#### Implemented Sobel:
+<img src = "lab05 (Edge Detection)/output/custom_sobel.png"/>
+
+#### Implemented LoG:
+<img src = "lab05 (Edge Detection)/output/custom_LoG.png" height = "400"/>
