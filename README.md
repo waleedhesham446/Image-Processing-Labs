@@ -6,7 +6,11 @@ Small separated projects to apply the image proccessing concepts on real world c
 * [Lab1 (Basics)](#lab1)
    * [Objectives](#lab1-objectives)
    * [Requirements](#lab1-requirements)
-   * [Outputs](#lab1-outputs)   
+   * [Outputs](#lab1-outputs)
+ * [Lab2 (Convolution & FT)](#lab2)
+   * [Objectives](#lab2-objectives)
+   * [Requirements](#lab2-requirements)
+   * [Outputs](#lab2-outputs)
 
 ## <a name="lab1" />Lab1 (Basics)
 ### <a name="lab1-objectives" /> Objectives:
@@ -34,3 +38,23 @@ Small separated projects to apply the image proccessing concepts on real world c
 
 #### HSV:
 <img src = "lab01 (Basics)/output/hsv3.png" height = "500"/>
+
+
+## <a name="lab2" />Lab2 (Convolution & FT)
+
+### <a name="lab2-objectives" /> Objectives:
+ * Learn the concept of Convolution in the space domain.
+ * Learn the concept of Inverse Fourier Transform.
+ * Learn the concept of Multiplication in frequency domain.
+
+### <a name="lab2-requirements" /> Requirements: 
+* Get The Inverse Fourier Transform of Images
+* A Function that calculates the Fourier Transform of an image, applies Multiplication in Frequency domain, then converts it back to Spatial Domain
+* A Function that performs Convolution in Spatial Domain
+
+### <a name="lab2-outputs" /> Outputs:
+#### Fourier Transform:
+<img src = "lab02 (Convolution & FT)/output/highpass.png"/>
+
+#### Convolution Filters:
+<img src = "lab02 (Convolution & FT)/output/edged.png"/>
