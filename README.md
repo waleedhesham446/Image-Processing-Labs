@@ -11,6 +11,10 @@ Small separated projects to apply the image proccessing concepts on real world c
    * [Objectives](#lab2-objectives)
    * [Requirements](#lab2-requirements)
    * [Outputs](#lab2-outputs)
+* [lab03 (AVG Filters)](#lab3)
+   * [Objectives](#lab3-objectives)
+   * [Requirements](#lab3-requirements)
+   * [Outputs](#lab3-outputs)
 
 ## <a name="lab1" />Lab1 (Basics)
 ### <a name="lab1-objectives" /> Objectives:
@@ -58,3 +62,20 @@ Small separated projects to apply the image proccessing concepts on real world c
 
 #### Convolution Filters:
 <img src = "lab02 (Convolution & FT)/output/edged.png"/>
+
+
+## <a name="lab3" />lab03 (AVG Filters)
+
+### <a name="lab3-objectives" /> Objectives:
+ * Understand how Averaging Filters are used for Noise Reduction.
+
+### <a name="lab3-requirements" /> Requirements: 
+* Implement Median Filter
+* USe Both **Gaussian** and **Median** Filters for Noise Reduction and compare the results.
+
+### <a name="lab3-outputs" /> Outputs:
+#### Median Filter:
+<img src = "lab03 (AVG Filters)/output/custom_median.png"/>
+
+#### Gaussian Filter:
+<img src = "lab03 (AVG Filters)/output/mean.png"/>
