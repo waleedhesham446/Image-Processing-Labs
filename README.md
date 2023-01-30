@@ -31,6 +31,11 @@ Small separated projects to apply the image proccessing concepts on real world c
    * [Objectives](#lab7-objectives)
    * [Requirements](#lab7-requirements)
    * [Outputs](#lab7-outputs)
+ * [Lab8 (Segmentation-2)](#lab8)
+   * [Objectives](#lab8-objectives)
+   * [Requirements](#lab8-requirements)
+   * [Outputs](#lab8-outputs)
+
 
 ## <a name="lab1" />Lab1 (Basics)
 ### <a name="lab1-objectives" /> Objectives:
@@ -166,7 +171,7 @@ Small separated projects to apply the image proccessing concepts on real world c
 <img src = "lab06 (Morphology)/output/thin_skeleton.png" height = "600"/>
 
 
-## <a name="lab7" />Lab6 (Morphology)
+## <a name="lab7" />Lab7 (Segmentation-1)
 
 ### <a name="lab7-objectives" /> Objectives:
  * Learn how to deal with pixel level values with minimum usage of already-implemented functions.
@@ -182,4 +187,22 @@ Small separated projects to apply the image proccessing concepts on real world c
 
 #### Grass Detection by Thresholding:
 <img src = "lab07 (Segmentation)/output/grass_detection.png" height = "600"/>
+
+
+## <a name="lab8" />Lab8 (Segmentation-2)
+
+### <a name="lab8-objectives" /> Objectives:
+ * Learn adaptive thresholding technique.
+
+### <a name="lab8-requirements" /> Requirements: 
+* Implement Adaptive Thresholding Technique.
+* Comapre Local and Global Adaptive Thresholding (Implemented Version)
+> Local Thresholding is done by applying thresholding on each qaurter of the image.
+
+### <a name="lab8-outputs" /> Outputs:
+#### Global Thresholding:
+<img src = "lab08 (Segmentation)/output/global_thresholding.png"/>
+
+#### Local and Global Thresholding:
+<img src = "lab08 (Segmentation)/output/local_thresholding.png" height = "600"/>
 
