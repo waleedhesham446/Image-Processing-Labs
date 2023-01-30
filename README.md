@@ -19,10 +19,14 @@ Small separated projects to apply the image proccessing concepts on real world c
    * [Objectives](#lab4-objectives)
    * [Requirements](#lab4-requirements)
    * [Outputs](#lab4-outputs)
-  * [Lab5 (Edge Detection)](#lab5)
+ * [Lab5 (Edge Detection)](#lab5)
    * [Objectives](#lab5-objectives)
    * [Requirements](#lab5-requirements)
    * [Outputs](#lab5-outputs)
+ * [Lab6 (Morphology)](#lab6)
+   * [Objectives](#lab6-objectives)
+   * [Requirements](#lab6-requirements)
+   * [Outputs](#lab6-outputs)
 
 ## <a name="lab1" />Lab1 (Basics)
 ### <a name="lab1-objectives" /> Objectives:
@@ -135,3 +139,24 @@ Small separated projects to apply the image proccessing concepts on real world c
 
 #### Implemented LoG:
 <img src = "lab05 (Edge Detection)/output/custom_LoG.png" height = "400"/>
+
+
+## <a name="lab6" />Lab6 (Morphology)
+
+### <a name="lab6-objectives" /> Objectives:
+ * Understand Morphological Operations' effect on images
+
+### <a name="lab6-requirements" /> Requirements: 
+* Write Two Functions Implementing **Erosion** and **Dilation**.
+* Use Implemented and Built-in functions to extract a Credit Card Number
+* Apply **Thinning** and **Skeletonization** to an image and comment on results.
+
+### <a name="lab6-outputs" /> Outputs:
+#### Erosion and Dilation:
+<img src = "lab06 (Morphology)/output/erosion_dilation.png" height = "600"/>
+
+#### Credit Card Number Extraction:
+<img src = "lab06 (Morphology)/output/card.png" height = "600"/>
+
+#### Thinning and Skeletonizaton:
+<img src = "lab06 (Morphology)/output/thin_skeleton.png" height = "600"/>
