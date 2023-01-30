@@ -35,6 +35,10 @@ Small separated projects to apply the image proccessing concepts on real world c
    * [Objectives](#lab8-objectives)
    * [Requirements](#lab8-requirements)
    * [Outputs](#lab8-outputs)
+ * [Lab9 (Texture)](#lab9)
+   * [Objectives](#lab9-objectives)
+   * [Requirements](#lab9-requirements)
+   * [Outputs](#lab9-outputs)
 
 
 ## <a name="lab1" />Lab1 (Basics)
@@ -200,6 +204,25 @@ Small separated projects to apply the image proccessing concepts on real world c
 > Local Thresholding is done by applying thresholding on each qaurter of the image.
 
 ### <a name="lab8-outputs" /> Outputs:
+#### Global Thresholding:
+<img src = "lab08 (Segmentation)/output/global_thresholding.png"/>
+
+#### Local and Global Thresholding:
+<img src = "lab08 (Segmentation)/output/local_thresholding.png" height = "600"/>
+
+
+
+## <a name="lab9" />Lab9 (Texture)
+
+### <a name="lab9-objectives" /> Objectives:
+ * Understand Texture Analysis.
+
+### <a name="lab9-requirements" /> Requirements: 
+* Extract 3 Segments from an Image
+* Comapre Local and Global Adaptive Thresholding (Implemented Version)
+> Local Thresholding is done by applying thresholding on each qaurter of the image.
+
+### <a name="lab9-outputs" /> Outputs:
 #### Global Thresholding:
 <img src = "lab08 (Segmentation)/output/global_thresholding.png"/>
 
