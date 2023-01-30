@@ -15,6 +15,10 @@ Small separated projects to apply the image proccessing concepts on real world c
    * [Objectives](#lab3-objectives)
    * [Requirements](#lab3-requirements)
    * [Outputs](#lab3-outputs)
+ * [lab04 (Brightness Transformation)](#lab4)
+   * [Objectives](#lab4-objectives)
+   * [Requirements](#lab4-requirements)
+   * [Outputs](#lab4-outputs)
 
 ## <a name="lab1" />Lab1 (Basics)
 ### <a name="lab1-objectives" /> Objectives:
@@ -71,7 +75,7 @@ Small separated projects to apply the image proccessing concepts on real world c
 
 ### <a name="lab3-requirements" /> Requirements: 
 * Implement Median Filter
-* USe Both **Gaussian** and **Median** Filters for Noise Reduction and compare the results.
+* Use Both **Gaussian** and **Median** Filters for Noise Reduction and compare the results.
 
 ### <a name="lab3-outputs" /> Outputs:
 #### Median Filter:
@@ -79,3 +83,27 @@ Small separated projects to apply the image proccessing concepts on real world c
 
 #### Gaussian Filter:
 <img src = "lab03 (AVG Filters)/output/mean.png"/>
+
+
+## <a name="lab4" />lab04 (Brightness Transformation)
+
+### <a name="lab4-objectives" /> Objectives:
+ * Know the effect of Negative transformation.
+ * Know the effect of contrast enhancement.
+ * Know the effect of gamma correction.
+ * Understand and implement Histogram Equalization.
+
+
+### <a name="lab4-requirements" /> Requirements: 
+* Apply **Negative transformation** to an image.
+* Apply **Gamma Correction** to an image.
+* Implement a function to perform **Contrast Enhancement**.
+* Implement a function to perform **Histogram Equalization**.
+* Remove a Blue Hue from an Image
+
+### <a name="lab4-outputs" /> Outputs:
+#### Blue Hue Removal:
+<img src = "lab04 (Brightness Transformation)/output/blue_effect_removal.png"/>
+
+#### Histogram Equalization:
+<img src = "lab04 (Brightness Transformation)/output/hist_equalization.png"/>
