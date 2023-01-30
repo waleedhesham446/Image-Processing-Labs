@@ -27,6 +27,10 @@ Small separated projects to apply the image proccessing concepts on real world c
    * [Objectives](#lab6-objectives)
    * [Requirements](#lab6-requirements)
    * [Outputs](#lab6-outputs)
+ * [Lab7 (Segmentation-1)](#lab7)
+   * [Objectives](#lab7-objectives)
+   * [Requirements](#lab7-requirements)
+   * [Outputs](#lab7-outputs)
 
 ## <a name="lab1" />Lab1 (Basics)
 ### <a name="lab1-objectives" /> Objectives:
@@ -160,3 +164,22 @@ Small separated projects to apply the image proccessing concepts on real world c
 
 #### Thinning and Skeletonizaton:
 <img src = "lab06 (Morphology)/output/thin_skeleton.png" height = "600"/>
+
+
+## <a name="lab7" />Lab6 (Morphology)
+
+### <a name="lab7-objectives" /> Objectives:
+ * Learn how to deal with pixel level values with minimum usage of already-implemented functions.
+ * Learn simple thresholding techniques.
+
+### <a name="lab7-requirements" /> Requirements: 
+* Use the dominating color channel of the background to get the foreground only
+* Get the all pixels that have RGB values close to a required color and replace their RGB values with a target color (Grass Detection).
+
+### <a name="lab7-outputs" /> Outputs:
+#### Background Removal:
+<img src = "lab07 (Segmentation)/output/background_removal.png" height = "600"/>
+
+#### Grass Detection by Thresholding:
+<img src = "lab07 (Segmentation)/output/grass_detection.png" height = "600"/>
+
