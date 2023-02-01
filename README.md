@@ -39,7 +39,7 @@ Small separated projects to apply the image proccessing concepts on real world c
    * [Objectives](#lab9-objectives)
    * [Requirements](#lab9-requirements)
    * [Outputs](#lab9-outputs)
-
+ * [Contributors](#contributors)
 
 ## <a name="lab1" />Lab1 (Basics)
 ### <a name="lab1-objectives" /> Objectives:
@@ -226,6 +226,17 @@ Small separated projects to apply the image proccessing concepts on real world c
 #### Patches Texture:
 <img src = "lab09 (Texture)/output/texture.png"/>
 
-#### Local and Global Thresholding:
+#### Classification:
 <img src = "lab09 (Texture)/output/classification.png" height = "600"/>
 
+
+
+## <a name="contributors" />Contributors
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/waleedhesham446"><img src="https://avatars.githubusercontent.com/u/72695729?v=4" width="150px;" alt=""/><br /><sub><b>Walid Hesham</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/MahmoudAbdelhamidAli"><img src="https://avatars.githubusercontent.com/u/87570209?v=4" width="150px;" alt=""/><br /><sub><b>Mahmoud Abdlhamid</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/MohamedWw"><img src="https://avatars.githubusercontent.com/u/64079821?v=4" width="150px;" alt=""/><br /><sub><b>Mohamed Walid</b></sub></a><br /></td>
+     
+  </tr>
+ </table>
