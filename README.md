@@ -218,14 +218,14 @@ Small separated projects to apply the image proccessing concepts on real world c
  * Understand Texture Analysis.
 
 ### <a name="lab9-requirements" /> Requirements: 
-* Extract 3 Segments from an Image
-* Comapre Local and Global Adaptive Thresholding (Implemented Version)
-> Local Thresholding is done by applying thresholding on each qaurter of the image.
+* Get the texture values (contrast, homogeneity) of 6 different patches
+* Classify patches into 3 types (cotton, jeans, background) based on their texture values
+* Apply this classifier to normal image via dividing it into small patches
 
 ### <a name="lab9-outputs" /> Outputs:
-#### Global Thresholding:
-<img src = "lab08 (Segmentation)/output/global_thresholding.png"/>
+#### Patches Texture:
+<img src = "lab09 (Texture)/output/texture.png"/>
 
 #### Local and Global Thresholding:
-<img src = "lab08 (Segmentation)/output/local_thresholding.png" height = "600"/>
+<img src = "lab09 (Texture)/output/classification.png" height = "600"/>
 
